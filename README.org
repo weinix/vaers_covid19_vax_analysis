@@ -1,0 +1,20 @@
+#+TITLE: Readme
+
+* Public data
+https://guides.library.queensu.ca/covid19/vaccine
+** Vaers
+https://guides.library.queensu.ca/covid19/vaccine
+** EudraVigilance
+http://www.adrreports.eu/en/index.html
+** Canadian
+https://www.canada.ca/en/public-health/services/immunization/canadian-adverse-events-following-immunization-surveillance-system-caefiss.html#s2
+** UK
+https://www.gov.uk/government/publications/coronavirus-covid-19-vaccine-adverse-reactions
+https://coronavirus-yellowcard.mhra.gov.uk/
+** WHO
+http://www.vigiaccess.org/
+** New Zealand
+https://www.medsafe.govt.nz/COVID-19/vaccine-report-overview.asp
+
+** Australia
+https://apps.tga.gov.au/PROD/DAEN/daen-entry.aspx
