@@ -1,0 +1,182 @@
+#+TITLE: Covid Vaccines Overview
+#+author: Wei Wang
+#+OPTIONS: toc:nil
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:t
+#+OPTIONS: reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
+#+OPTIONS: reveal_width:1400 reveal_height:1000
+#+OPTIONS: toc:nil
+#+OPTIONS: reveal_klipsify_src:t
+#+REVEAL_MIN_SCALE: 1.0
+#+REVEAL_MAX_SCALE: 1.0
+#+REVEAL_PLUGINS: (notes search zoom)
+#+REVEAL_MARGIN: 0.1
+#+REVEAL_TRANS: cube
+#+REVEAL_THEME: black
+#+REVEAL_HLEVEL: 2
+#+REVEAL_POSTAMBLE: <p> Based upon work by yjwen. </p>
+
+
+* Covid-19 Facts
+** Definitions
+- SARS-CoV-2
+- COVID-19
+
+  In 2019, a new coronavirus was identified as the cause of a disease outbreak that originated in China. The virus is now known as the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The disease it causes is called coronavirus disease 2019 (COVID-19).
+** How dangerous is it?
+- Early data from China: 3.4% case fatality rate
+- Mathematical models have suggested that 40–81% of the world population could be infected, and have lowered the infection fatality rate to 1.0% or 0.9%
+- The infection fatality rate of COVID-91 can vary substantially across different locations, depends on:
+  - Population age structure
+  - Medical treatments available
+  - Health situation
+
+** How dangerous is it? (continued)
+   [[file:CovidVaxOverview.org_imgs/20211011_185859_35RqeZ.png]]
+- References:
+  - https://www.who.int/bulletin/volumes/99/1/20-265892.pdf
+  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7947934/
+** About Asymptomatic Transmission
+[[file:CovidVaxOverview.org_imgs/20211011_191134_ckRtJR.png]]
+- The theory of asymptomatic transmission is yet to be proven
+- Only peer reviewed study
+- Reference
+  - https://www.nature.com/articles/s41467-020-19802-w
+
+* How reliable are the metrics?
+** Where are numbers come from?
+[[file:CovidVaxOverview.org_imgs/20211011_192020_fl9ZQr.png]]
+
+** It's all about tests, rights? Look at this
+[[file:CovidVaxOverview.org_imgs/20211011_192230_cgZoQl.png]]
+- [[https://www.cdc.gov/csels/dls/locs/2021/07-21-2021-lab-alert-Changes_CDC_RT-PCR_SARS-CoV-2_Testing_1.html][07/21/2021: Lab Alert: Changes to CDC RT-PCR for SARS-CoV-2 Testing]]
+  - EUA as well?
+- [[https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/removal-lists-tests-should-no-longer-be-used-andor-distributed-covid-19-faqs-testing-sars-cov-2][Removal Lists of Tests That Should No Longer Be Used and/or Distributed for COVID-19: FAQs on Testing for SARS-CoV-2]]
+  - Near 300 tests have been recalled!
+** More about PCR tests
+[[file:CovidVaxOverview.org_imgs/20211011_193145_sow5To.png]]
+[[file:CovidVaxOverview.org_imgs/20211011_192805_utVJNo.png]]
+- https://odysee.com/@EduardoCorrochio:4/kary-mullis-explains-the-pcr-test:e
+  - "If you do it well, you can find amlost anything in anybody."
+  - "If you can amplify one single molecule, up to something that you can really measure which PCR can do. Then there's just very few molecules that you don't have at least one single one of them in your body."
+- [[https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciaa1764/6018217][Jefferson meta-analysis]]
+** US Monthly Total Death Trend(CDC data)
+[[file:CovidVaxOverview.org_imgs/20211011_203335_m0MJBI.png]]
+https://colab.research.google.com/drive/1JTYIltXHUiz7nvdv_1ZwpW6trveh63Ke?usp=sharing
+
+* Censored Treatment researches/studies
+- [[https://vladimirzelenkomd.com/zelenko-treatment-protocol/][Dr. Vladimir Zelenko Protocol]]
+  - https://www.sciencedirect.com/science/article/pii/S0924857920304258
+    This paper was the FIRST in the world to demonstrate an 84% reduction in hospitalization and death if COVID-19 was treated early in the prehospital setting. These world class scientists did it for free for the sake of humanity. God should bless them for all eternity.
+  - [[https://rumble.com/vkqs1o-dr.-zelenko-schools-israeli-rabbinic-court..html][Dr. Zelenko on Israeli Rabbinic court]]
+- Dr. Peter A. McCullough
+  - https://www.researchgate.net/publication/348946216
+  - https://americaoutloud.com/using-fear-tactics-to-send-america-backward-into-masking-and-vaccination/
+- [[https://aapsonline.org/early-treatment-saves-lives/][AAPS Early Treatment Saves Lives]]
+- [[https://doi.org/10.1016/j.ijid.2020.06.099][Dr. Harvey Risch (Yale)]]
+  Hydroxychloroquine (HCQ) produced a 34% reduction in risk of death, while HCQ and azithromycin produced a 29% reduction in risk of death in hospitalized patients with COVID-19.
+- Dr. Richard Bartlett
+  - (Budesonide Nasal Steroids) - reports 100% success rate when started early.
+- [Dr Eleftheria Atalla](https://www.mdpi.com/2076-0817/10/1/8)
+- (Brown University, R.I.) - treatment of critically ill seniors in Long Term Care
+    Facilities with anticoagulants who had elevated markers of inflammation were 84% less likely to die. [Pathogens 2021, 10, 8. [https://dx.doi.org/10.3390/pathogens10010008](https://dx.doi.org/10.3390/pathogens10010008)]
+* Censored Treatment researches/studies(Continued)
+- Ivermectin
+  - [[https://m.thebl.com/world-news/india-for-discouraging-the-use-of-ivermectin-who-official-could-receive-death-penalty.html][India filed a criminal complaint against WHO]]
+  - [[https://open.spotify.com/episode/7uVXKgE6eLJKMXkETwcw0D?si=eR1_mbUXToekzvM7IURJrQ&utm_source=copy-link&dl_branch=1&nd=1][Bret Weinstein and dr. Pierre kory]]
+  - [[https://journals.lww.com/americantherapeutics/Abstract/9000/Ivermectin_for_Prevention_and_Treatment_of.98040.aspx][Meta-analysis on american therapeutics]]
+    Moderate-certainty evidence finds that large reductions in COVID-19 deaths are possible using ivermectin. Using ivermectin early in the clinical course may reduce numbers progressing to severe disease. The apparent safety and low cost suggest that ivermectin is likely to have a significant impact on the SARS-CoV-2 pandemic globally.
+- [[https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)31180-6/fulltext][HCQ Retracted paper on HCQ]]
+  - RECOVERY TRIAL sponsored by BILL and  MELINDA GATES FOUNDATION, OXFORD UNIVERSITY and GLAXOSMITHKLINE
+  - Used POISONOUS and LETHAL doses of HCQ (2400mg/day).  Death rate was over 25% of participants.
+  - Results—1,542 patients of these 396 patients (25.7%) who were in the high dose Hydroxychloroquine arm, died.
+* Censored Treatment researches/studies(Continued)
+- Others
+  - Comprehensive nutritional study
+    - Used Vitamin A (100,000 IU/day), Vitamin C(1,000mg/hour during waking), Vitamin D (50,000 IU/day), and Lugol's Iodine(25mg). 
+    - *One hundred seven out of 107 patients fully recovered within seven days of treatment.*
+  - Vitamin D study
+  - National Health and Nutrition Examination Survey studies 
+    - The CDC has known for at least two decades that Americans are deficient in the following key immunological nutrients: Vitamin A (35-45% of the population is deficient), Vitamin C (37-46%), Vitamin D (65-95%), Vitamin E (60-84%), and Zinc (11-15%).
+
+* Covid Vaccine Facts
+** Traditional vaccines
+[[file:CovidVaxOverview.org_imgs/20211011_214736_oyuhab.png]]
+Reference: https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/vaccine-safety-6-common-questions-answered
+** Covid mRNA vaccines
+[[file:CovidVaxOverview.org_imgs/20211011_214558_fOGgty.png]]
+
+Reference: https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/mRNA.html?s_cid=11344:how%20mrna%20vaccines%20work:sem.ga:p:RG:GM:gen:PTN:FY21
+
+** How efficacy value is calculated
+- Relative Risk reduction(What's been told)
+[[file:CovidVaxOverview.org_imgs/20211011_212621_3uWJ9j.png]]
+Keep in mind when you read this data, there is no reliable way to tell who really got COVID
+- Absolute risk reduction
+ [[file:CovidVaxOverview.org_imgs/20211011_212914_Qr7WBX.png]]
+
+** Put data together
+[[file:CovidVaxOverview.org_imgs/20211011_213117_gRIuqt.png]]
+
+** Understand phases of clinical trails
+- Phase I - Determine Safety. If you can’t find a safe dose, then it doesn’t matter if it works. Small in numbers & healthy people.
+- Phase II (aka Exploratory Trials) - If a Safe Dose is Found - Does the Drug Work?
+- Phase III - How does the drug compare with that already used for the problem?
+- Phase IV - Post Marketing Surveillance Studies (aka Pharmacovigilance).
+
+** How vaccine had been developped
+[[file:CovidVaxOverview.org_imgs/20211011_214211_jELaLo.png]]
+** My personal VAERS data analysis
+- Be noted only about 1-10% are reported, see [[https://digital.ahrq.gov/sites/default/files/docs/publication/r18hs017045-lazarus-final-report-2011.pdf][Harvard VAERS study]]
+https://colab.research.google.com/drive/1RdP7fdF6iUPWRmxfJ4eiXR9v-i3EVUUB?usp=sharing
+** UK Data
+- [[https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1001354/Variants_of_Concern_VOC_Technical_Briefing_17.pdf][Jun. 2021]]
+ [[file:CovidVaxOverview.org_imgs/20211011_214943_yrMfK3.png]]
+- [[https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1009243/Technical_Briefing_20.pdf][Aug. 2021]]
+ [[file:CovidVaxOverview.org_imgs/20211011_215040_lNAZoB.png]]
+- [[https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1014926/Technical_Briefing_22_21_09_02.pdf][Sep. 2021]]
+ [[file:CovidVaxOverview.org_imgs/20211011_215120_ePKtr5.png]]
+
+** Israel
+[[file:CovidVaxOverview.org_imgs/20211011_204735_vh2Trf.png]]
+- [[https://rumble.com/vmpbh3-38132823.html][The testimonies project(just watch first 30s, learn how films are made!)]]
+- https://www.vaxtestimonies.org/en/
+
+** Singapore
+[[file:CovidVaxOverview.org_imgs/20211011_204831_xZvZnT.png]]
+
+** US latest Vax development
+- [[https://www.poynter.org/reporting-editing/2021/cdc-advisers-approve-covid-booster-shots-for-adults-but-reject-part-of-fda-approval/][CDC director overrules advisers and approves Pfizer booster shots for millions of people in high-risk jobs]]
+  - "The highly unusual move comes after the advisory board on vaccines voted nine to six against giving booster shots to teachers, health care workers and others who come in close contact with people in their jobs."
+- [[file:docs/AFFIDAVIT-OF-LTC_Long.pdf][Oct. 4th 2021, Affidavit of Army Lieutenant Colonel Theresa Long M.D]]
+ [[file:CovidVaxOverview.org_imgs/20211011_222041_WwXdFZ.png]]
+ [[file:CovidVaxOverview.org_imgs/20211011_222009_8Kw9aA.png]]
+
+- Texas governor signed bill forbiden Vax mandate
+** VigiAccess data (WHO)
+- http://vigiaccess.org/
+[[file:CovidVaxOverview.org_imgs/20211011_222623_7RhbZn.png]]
+** Spike protein itself is toxic
+- https://www.brighteon.com/3d683a15-fc3d-432d-a057-3313969eb075
+- https://omny.fm/shows/on-point-with-alex-pierson/new-peer-reviewed-study-on-covid-19-vaccines-sugge
+
+** Dr. Bhakdi on Covid mRNA Vaccine and Blood clots & Autoimmune diseases
+- https://odysee.com/@Doctors4CovidEthics:d/Prof.-Sucharit-Bhakdi-statement-on-EMA-open-letter.ENG:0?&sunset=lbrytv
+- https://odysee.com/@True_World:f/Dr-Bhakdi-Another-spot-Blood-Antibodies-and-Warning-of-2nd-Dose---Dr-Bhakdi-Varovani-pred-druhou-davkou-ockovani:2
+
+** Dr. Robert Malone on Dark Horse Podcase interview
+[[file:CovidVaxOverview.org_imgs/20211011_224729_JI3O1B.png]]
+- https://odysee.com/@blasiusgeorge:9/Robert-Malone---Dark-Horse-Podcast-Interview:b
+  + From 35:52
+- Dr. Bret Weinstein, Was a professor of biology at Evergreen State College
+- Dr. Robert Malone, inventor of mRNA vaccine technology
+- Steve Kirsch, tech entrepreneur
+** mRNA bio distribution
+- https://www.naturalnews.com/files/Pfizer-bio-distribution-confidential-document-translated-to-english.pdf
+ [[file:CovidVaxOverview.org_imgs/20211011_224645_hbHrik.png]]
+* How Covid Vaccine impact shools?
+- What college require te Covid-19 Vaccine?
+  https://www.bestcolleges.com/blog/list-of-colleges-that-require-covid-19-vaccine/
+* Good overall references
+- [[https://cdn.greenmedinfo.com/sites/default/files/cdn/Position_Paper_v24_FINAL.pdf][Dr. Herry]]
+- [[https://www.flemingmethod.com/live-stream-of-event-2021][Dr. Fleming]]
