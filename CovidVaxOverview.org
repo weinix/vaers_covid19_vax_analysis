@@ -129,6 +129,10 @@ Keep in mind when you read this data, there is no reliable way to tell who reall
 ** My personal VAERS data analysis
 - Be noted only about 1-10% are reported, see [[https://digital.ahrq.gov/sites/default/files/docs/publication/r18hs017045-lazarus-final-report-2011.pdf][Harvard VAERS study]]
 https://colab.research.google.com/drive/1RdP7fdF6iUPWRmxfJ4eiXR9v-i3EVUUB?usp=sharing
+
+[[file:CovidVaxOverview.org_imgs/20211012_003957_a8xZNE.png]]
+[[file:CovidVaxOverview.org_imgs/20211012_004015_TPNkc1.png]]
+
 ** UK Data
 - [[https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1001354/Variants_of_Concern_VOC_Technical_Briefing_17.pdf][Jun. 2021]]
  [[file:CovidVaxOverview.org_imgs/20211011_214943_yrMfK3.png]]
