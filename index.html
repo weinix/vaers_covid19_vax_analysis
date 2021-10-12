@@ -1,1 +1,574 @@
-CovidVaxOverview.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Covid Vaccines Overview</title>
+<meta name="author" content="Wei Wang"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/black.css" id="theme"/>
+<link rel="stylesheet" href="https://storage.googleapis.com/app.klipse.tech/css/codemirror.css"/>
+<style>
+/* Position computations of klipse get confused by reveal.js's scaling.
+   Hence, scaling should be disabled with this code.  Fix height of code area
+   with scrollbar (use overflow instead of overflow-y to restore CodeMirror
+   setting afterwards): */
+.reveal section pre { max-height: 70vh; height: auto; overflow: auto; }
+/* Reset some reveal.js and oer-reveal settings: */
+.reveal section pre .CodeMirror pre { font-size: 2em; box-shadow: none; width: auto; padding: 0.4em; display: block; overflow: visible; }
+/* Enlarge cursor: */
+.CodeMirror-cursor { border-left: 3px solid black; }
+</style>
+<script>
+    window.klipse_settings = {
+        selector: '.language-klipse',
+        selector_eval_html: '.language-klipse-html',
+        selector_eval_js: '.language-klipse-javascript',
+        selector_eval_js: '.language-klipse-js',
+        selector_eval_php: '.language-klipse-php',
+        selector_eval_python_client: '.language-klipse-python',
+        selector_eval_ruby: '.language-klipse-ruby',
+        selector_eval_scheme: '.language-klipse-scheme',
+        selector_sql: '.language-klipse-sql'
+    };
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide">
+<h1 class="title">Covid Vaccines Overview</h1><h2 class="author">Wei Wang</h2><p class="date">Created: 2021-10-11 Mon 23:43</p>
+</section>
+
+
+<section>
+<section id="slide-orgf5c9c95">
+<h2 id="orgf5c9c95">Covid-19 Facts</h2>
+<div class="outline-text-2" id="text-orgf5c9c95">
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orgcd1cad3">
+<h3 id="orgcd1cad3">Definitions</h3>
+<ul>
+<li>SARS-CoV-2</li>
+<li><p>
+COVID-19
+</p>
+
+<p>
+In 2019, a new coronavirus was identified as the cause of a disease outbreak that originated in China. The virus is now known as the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The disease it causes is called coronavirus disease 2019 (COVID-19).
+</p></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orga61a79f">
+<h3 id="orga61a79f">How dangerous is it?</h3>
+<ul>
+<li>Early data from China: 3.4% case fatality rate</li>
+<li>Mathematical models have suggested that 40–81% of the world population could be infected, and have lowered the infection fatality rate to 1.0% or 0.9%</li>
+<li>The infection fatality rate of COVID-91 can vary substantially across different locations, depends on:
+<ul>
+<li>Population age structure</li>
+<li>Medical treatments available</li>
+<li>Health situation</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org9b3748a">
+<h3 id="org9b3748a">How dangerous is it? (continued)</h3>
+
+<div id="org03de6ae" class="figure">
+<p><img src="CovidVaxOverview.org_imgs/20211011_185859_35RqeZ.png" alt="20211011_185859_35RqeZ.png" />
+</p>
+</div>
+<ul>
+<li>References:
+<ul>
+<li><a href="https://www.who.int/bulletin/volumes/99/1/20-265892.pdf">https://www.who.int/bulletin/volumes/99/1/20-265892.pdf</a></li>
+<li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7947934/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7947934/</a></li>
+
+</ul></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgb2f1ab6">
+<h3 id="orgb2f1ab6">About Asymptomatic Transmission</h3>
+
+<div id="org2e0ee84" class="figure">
+<p><img src="CovidVaxOverview.org_imgs/20211011_191134_ckRtJR.png" alt="20211011_191134_ckRtJR.png" />
+</p>
+</div>
+<ul>
+<li>The theory of asymptomatic transmission is yet to be proven</li>
+<li>Only peer reviewed study</li>
+<li>Reference
+<ul>
+<li><a href="https://www.nature.com/articles/s41467-020-19802-w">https://www.nature.com/articles/s41467-020-19802-w</a></li>
+
+</ul></li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgc75a521">
+<h2 id="orgc75a521">How reliable are the metrics?</h2>
+<div class="outline-text-2" id="text-orgc75a521">
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org48cecd6">
+<h3 id="org48cecd6">Where are numbers come from?</h3>
+
+<div id="orgef9211c" class="figure">
+<p><img src="CovidVaxOverview.org_imgs/20211011_192020_fl9ZQr.png" alt="20211011_192020_fl9ZQr.png" />
+</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org7ce0335">
+<h3 id="org7ce0335">It&rsquo;s all about tests, rights? Look at this</h3>
+
+<div id="org5f9c96c" class="figure">
+<p><img src="CovidVaxOverview.org_imgs/20211011_192230_cgZoQl.png" alt="20211011_192230_cgZoQl.png" />
+</p>
+</div>
+<ul>
+<li><a href="https://www.cdc.gov/csels/dls/locs/2021/07-21-2021-lab-alert-Changes_CDC_RT-PCR_SARS-CoV-2_Testing_1.html">07/21/2021: Lab Alert: Changes to CDC RT-PCR for SARS-CoV-2 Testing</a>
+<ul>
+<li>EUA as well?</li>
+
+</ul></li>
+<li><a href="https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/removal-lists-tests-should-no-longer-be-used-andor-distributed-covid-19-faqs-testing-sars-cov-2">Removal Lists of Tests That Should No Longer Be Used and/or Distributed for COVID-19: FAQs on Testing for SARS-CoV-2</a>
+<ul>
+<li>Near 300 tests have been recalled!</li>
+
+</ul></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org09b737a">
+<h3 id="org09b737a">More about PCR tests</h3>
+<p>
+<img src="CovidVaxOverview.org_imgs/20211011_193145_sow5To.png" alt="20211011_193145_sow5To.png" />
+<img src="CovidVaxOverview.org_imgs/20211011_192805_utVJNo.png" alt="20211011_192805_utVJNo.png" />
+</p>
+<ul>
+<li><a href="https://odysee.com/@EduardoCorrochio:4/kary-mullis-explains-the-pcr-test:e">https://odysee.com/@EduardoCorrochio:4/kary-mullis-explains-the-pcr-test:e</a>
+<ul>
+<li>&ldquo;If you do it well, you can find amlost anything in anybody.&rdquo;</li>
+<li>&ldquo;If you can amplify one single molecule, up to something that you can really measure which PCR can do. Then there&rsquo;s just very few molecules that you don&rsquo;t have at least one single one of them in your body.&rdquo;</li>
+
+</ul></li>
+<li><a href="https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciaa1764/6018217">Jefferson meta-analysis</a></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org5ea0511">
+<h3 id="org5ea0511">US Monthly Total Death Trend(CDC data)</h3>
+<p>
+<img src="CovidVaxOverview.org_imgs/20211011_203335_m0MJBI.png" alt="20211011_203335_m0MJBI.png" />
+<a href="https://colab.research.google.com/drive/1JTYIltXHUiz7nvdv_1ZwpW6trveh63Ke?usp=sharing">https://colab.research.google.com/drive/1JTYIltXHUiz7nvdv_1ZwpW6trveh63Ke?usp=sharing</a>
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-org88f1b95">
+<h2 id="org88f1b95">Censored Treatment researches/studies</h2>
+<ul>
+<li><a href="https://vladimirzelenkomd.com/zelenko-treatment-protocol/">Dr. Vladimir Zelenko Protocol</a>
+<ul>
+<li><a href="https://www.sciencedirect.com/science/article/pii/S0924857920304258">https://www.sciencedirect.com/science/article/pii/S0924857920304258</a>
+This paper was the FIRST in the world to demonstrate an 84% reduction in hospitalization and death if COVID-19 was treated early in the prehospital setting. These world class scientists did it for free for the sake of humanity. God should bless them for all eternity.</li>
+<li><a href="https://rumble.com/vkqs1o-dr.-zelenko-schools-israeli-rabbinic-court..html">Dr. Zelenko on Israeli Rabbinic court</a></li>
+
+</ul></li>
+<li>Dr. Peter A. McCullough
+<ul>
+<li><a href="https://www.researchgate.net/publication/348946216">https://www.researchgate.net/publication/348946216</a></li>
+<li><a href="https://americaoutloud.com/using-fear-tactics-to-send-america-backward-into-masking-and-vaccination/">https://americaoutloud.com/using-fear-tactics-to-send-america-backward-into-masking-and-vaccination/</a></li>
+
+</ul></li>
+<li><a href="https://aapsonline.org/early-treatment-saves-lives/">AAPS Early Treatment Saves Lives</a></li>
+<li><a href="https://doi.org/10.1016/j.ijid.2020.06.099">Dr. Harvey Risch (Yale)</a>
+Hydroxychloroquine (HCQ) produced a 34% reduction in risk of death, while HCQ and azithromycin produced a 29% reduction in risk of death in hospitalized patients with COVID-19.</li>
+<li>Dr. Richard Bartlett
+<ul>
+<li>(Budesonide Nasal Steroids) - reports 100% success rate when started early.</li>
+
+</ul></li>
+<li>[Dr Eleftheria Atalla](<a href="https://www.mdpi.com/2076-0817/10/1/8">https://www.mdpi.com/2076-0817/10/1/8</a>)</li>
+<li>(Brown University, R.I.) - treatment of critically ill seniors in Long Term Care
+Facilities with anticoagulants who had elevated markers of inflammation were 84% less likely to die. [Pathogens 2021, 10, 8. [<a href="https://dx.doi.org/10.3390/pathogens10010008">https://dx.doi.org/10.3390/pathogens10010008</a>](<a href="https://dx.doi.org/10.3390/pathogens10010008">https://dx.doi.org/10.3390/pathogens10010008</a>)]</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgf18bf87">
+<h2 id="orgf18bf87">Censored Treatment researches/studies(Continued)</h2>
+<ul>
+<li>Ivermectin
+<ul>
+<li><a href="https://m.thebl.com/world-news/india-for-discouraging-the-use-of-ivermectin-who-official-could-receive-death-penalty.html">India filed a criminal complaint against WHO</a></li>
+<li><a href="https://open.spotify.com/episode/7uVXKgE6eLJKMXkETwcw0D?si=eR1_mbUXToekzvM7IURJrQ&amp;utm_source=copy-link&amp;dl_branch=1&amp;nd=1">Bret Weinstein and dr. Pierre kory</a></li>
+<li><a href="https://journals.lww.com/americantherapeutics/Abstract/9000/Ivermectin_for_Prevention_and_Treatment_of.98040.aspx">Meta-analysis on american therapeutics</a>
+Moderate-certainty evidence finds that large reductions in COVID-19 deaths are possible using ivermectin. Using ivermectin early in the clinical course may reduce numbers progressing to severe disease. The apparent safety and low cost suggest that ivermectin is likely to have a significant impact on the SARS-CoV-2 pandemic globally.</li>
+
+</ul></li>
+<li><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)31180-6/fulltext">HCQ Retracted paper on HCQ</a>
+<ul>
+<li>RECOVERY TRIAL sponsored by BILL and  MELINDA GATES FOUNDATION, OXFORD UNIVERSITY and GLAXOSMITHKLINE</li>
+<li>Used POISONOUS and LETHAL doses of HCQ (2400mg/day).  Death rate was over 25% of participants.</li>
+<li>Results—1,542 patients of these 396 patients (25.7%) who were in the high dose Hydroxychloroquine arm, died.</li>
+
+</ul></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org9e72a58">
+<h2 id="org9e72a58">Censored Treatment researches/studies(Continued)</h2>
+<ul>
+<li>Others
+<ul>
+<li>Comprehensive nutritional study
+<ul>
+<li>Used Vitamin A (100,000 IU/day), Vitamin C(1,000mg/hour during waking), Vitamin D (50,000 IU/day), and Lugol&rsquo;s Iodine(25mg). </li>
+<li><b>One hundred seven out of 107 patients fully recovered within seven days of treatment.</b></li>
+
+</ul></li>
+<li>Vitamin D study</li>
+<li>National Health and Nutrition Examination Survey studies 
+<ul>
+<li>The CDC has known for at least two decades that Americans are deficient in the following key immunological nutrients: Vitamin A (35-45% of the population is deficient), Vitamin C (37-46%), Vitamin D (65-95%), Vitamin E (60-84%), and Zinc (11-15%).</li>
+
+</ul></li>
+
+</ul></li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgc0edaf1">
+<h2 id="orgc0edaf1">Covid Vaccine Facts</h2>
+<div class="outline-text-2" id="text-orgc0edaf1">
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orgec2f618">
+<h3 id="orgec2f618">Traditional vaccines</h3>
+<p>
+<img src="CovidVaxOverview.org_imgs/20211011_214736_oyuhab.png" alt="20211011_214736_oyuhab.png" />
+Reference: <a href="https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/vaccine-safety-6-common-questions-answered">https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/vaccine-safety-6-common-questions-answered</a>
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org0bf59ac">
+<h3 id="org0bf59ac">Covid mRNA vaccines</h3>
+
+<div id="orgf992f9f" class="figure">
+<p><img src="CovidVaxOverview.org_imgs/20211011_214558_fOGgty.png" alt="20211011_214558_fOGgty.png" />
+</p>
+</div>
+
+<p>
+Reference: <a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/mRNA.html?s_cid=11344:how%20mrna%20vaccines%20work:sem.ga:p:RG:GM:gen:PTN:FY21">https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/mRNA.html?s_cid=11344:how%20mrna%20vaccines%20work:sem.ga:p:RG:GM:gen:PTN:FY21</a>
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-orgb90fda4">
+<h3 id="orgb90fda4">How efficacy value is calculated</h3>
+<ul>
+<li>Relative Risk reduction(What&rsquo;s been told)</li>
+
+</ul>
+<p>
+<img src="CovidVaxOverview.org_imgs/20211011_212621_3uWJ9j.png" alt="20211011_212621_3uWJ9j.png" />
+Keep in mind when you read this data, there is no reliable way to tell who really got COVID
+</p>
+<ul>
+<li>Absolute risk reduction
+<img src="CovidVaxOverview.org_imgs/20211011_212914_Qr7WBX.png" alt="20211011_212914_Qr7WBX.png" /></li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org11305b6">
+<h3 id="org11305b6">Put data together</h3>
+
+<div id="orgaa53753" class="figure">
+<p><img src="CovidVaxOverview.org_imgs/20211011_213117_gRIuqt.png" alt="20211011_213117_gRIuqt.png" />
+</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org5dbe984">
+<h3 id="org5dbe984">Understand phases of clinical trails</h3>
+<ul>
+<li>Phase I - Determine Safety. If you can’t find a safe dose, then it doesn’t matter if it works. Small in numbers &amp; healthy people.</li>
+<li>Phase II (aka Exploratory Trials) - If a Safe Dose is Found - Does the Drug Work?</li>
+<li>Phase III - How does the drug compare with that already used for the problem?</li>
+<li>Phase IV - Post Marketing Surveillance Studies (aka Pharmacovigilance).</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgda952d0">
+<h3 id="orgda952d0">How vaccine had been developped</h3>
+
+<div id="org9cd6c1e" class="figure">
+<p><img src="CovidVaxOverview.org_imgs/20211011_214211_jELaLo.png" alt="20211011_214211_jELaLo.png" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org33fcf6c">
+<h3 id="org33fcf6c">My personal VAERS data analysis</h3>
+<ul>
+<li>Be noted only about 1-10% are reported, see <a href="https://digital.ahrq.gov/sites/default/files/docs/publication/r18hs017045-lazarus-final-report-2011.pdf">Harvard VAERS study</a></li>
+
+</ul>
+<p>
+<a href="https://colab.research.google.com/drive/1RdP7fdF6iUPWRmxfJ4eiXR9v-i3EVUUB?usp=sharing">https://colab.research.google.com/drive/1RdP7fdF6iUPWRmxfJ4eiXR9v-i3EVUUB?usp=sharing</a>
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org1c15c1b">
+<h3 id="org1c15c1b">UK Data</h3>
+<ul>
+<li><a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1001354/Variants_of_Concern_VOC_Technical_Briefing_17.pdf">Jun. 2021</a>
+<img src="CovidVaxOverview.org_imgs/20211011_214943_yrMfK3.png" alt="20211011_214943_yrMfK3.png" /></li>
+<li><a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1009243/Technical_Briefing_20.pdf">Aug. 2021</a>
+<img src="CovidVaxOverview.org_imgs/20211011_215040_lNAZoB.png" alt="20211011_215040_lNAZoB.png" /></li>
+<li><a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1014926/Technical_Briefing_22_21_09_02.pdf">Sep. 2021</a>
+<img src="CovidVaxOverview.org_imgs/20211011_215120_ePKtr5.png" alt="20211011_215120_ePKtr5.png" /></li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org9d37edb">
+<h3 id="org9d37edb">Israel</h3>
+
+<div id="orgd6672cc" class="figure">
+<p><img src="CovidVaxOverview.org_imgs/20211011_204735_vh2Trf.png" alt="20211011_204735_vh2Trf.png" />
+</p>
+</div>
+<ul>
+<li><a href="https://rumble.com/vmpbh3-38132823.html">The testimonies project(just watch first 30s, learn how films are made!)</a></li>
+<li><a href="https://www.vaxtestimonies.org/en/">https://www.vaxtestimonies.org/en/</a></li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgb992e79">
+<h3 id="orgb992e79">Singapore</h3>
+
+<div id="org6e4ac2d" class="figure">
+<p><img src="CovidVaxOverview.org_imgs/20211011_204831_xZvZnT.png" alt="20211011_204831_xZvZnT.png" />
+</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-orgc62b64c">
+<h3 id="orgc62b64c">US latest Vax development</h3>
+<ul>
+<li><a href="https://www.poynter.org/reporting-editing/2021/cdc-advisers-approve-covid-booster-shots-for-adults-but-reject-part-of-fda-approval/">CDC director overrules advisers and approves Pfizer booster shots for millions of people in high-risk jobs</a>
+<ul>
+<li>&ldquo;The highly unusual move comes after the advisory board on vaccines voted nine to six against giving booster shots to teachers, health care workers and others who come in close contact with people in their jobs.&rdquo;</li>
+
+</ul></li>
+<li><a href="docs/AFFIDAVIT-OF-LTC_Long.pdf">Oct. 4th 2021, Affidavit of Army Lieutenant Colonel Theresa Long M.D</a>
+<img src="CovidVaxOverview.org_imgs/20211011_222041_WwXdFZ.png" alt="20211011_222041_WwXdFZ.png" />
+<img src="CovidVaxOverview.org_imgs/20211011_222009_8Kw9aA.png" alt="20211011_222009_8Kw9aA.png" /></li>
+
+<li>Texas governor signed bill forbiden Vax mandate</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgcbb33b0">
+<h3 id="orgcbb33b0">VigiAccess data (WHO)</h3>
+<ul>
+<li><a href="http://vigiaccess.org/">http://vigiaccess.org/</a></li>
+
+</ul>
+
+<div id="org000c530" class="figure">
+<p><img src="CovidVaxOverview.org_imgs/20211011_222623_7RhbZn.png" alt="20211011_222623_7RhbZn.png" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org0d58562">
+<h3 id="org0d58562">Spike protein itself is toxic</h3>
+<ul>
+<li><a href="https://www.brighteon.com/3d683a15-fc3d-432d-a057-3313969eb075">https://www.brighteon.com/3d683a15-fc3d-432d-a057-3313969eb075</a></li>
+<li><a href="https://omny.fm/shows/on-point-with-alex-pierson/new-peer-reviewed-study-on-covid-19-vaccines-sugge">https://omny.fm/shows/on-point-with-alex-pierson/new-peer-reviewed-study-on-covid-19-vaccines-sugge</a></li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgc58a3d6">
+<h3 id="orgc58a3d6">Dr. Bhakdi on Covid mRNA Vaccine and Blood clots &amp; Autoimmune diseases</h3>
+<ul>
+<li><a href="https://odysee.com/@Doctors4CovidEthics:d/Prof.-Sucharit-Bhakdi-statement-on-EMA-open-letter.ENG:0?&amp;sunset=lbrytv">https://odysee.com/@Doctors4CovidEthics:d/Prof.-Sucharit-Bhakdi-statement-on-EMA-open-letter.ENG:0?&amp;sunset=lbrytv</a></li>
+<li><a href="https://odysee.com/@True_World:f/Dr-Bhakdi-Another-spot-Blood-Antibodies-and-Warning-of-2nd-Dose---Dr-Bhakdi-Varovani-pred-druhou-davkou-ockovani:2">https://odysee.com/@True_World:f/Dr-Bhakdi-Another-spot-Blood-Antibodies-and-Warning-of-2nd-Dose---Dr-Bhakdi-Varovani-pred-druhou-davkou-ockovani:2</a></li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org0a382b8">
+<h3 id="org0a382b8">Dr. Robert Malone on Dark Horse Podcase interview</h3>
+
+<div id="org1835174" class="figure">
+<p><img src="CovidVaxOverview.org_imgs/20211011_224729_JI3O1B.png" alt="20211011_224729_JI3O1B.png" />
+</p>
+</div>
+<ul>
+<li><a href="https://odysee.com/@blasiusgeorge:9/Robert-Malone---Dark-Horse-Podcast-Interview:b">https://odysee.com/@blasiusgeorge:9/Robert-Malone---Dark-Horse-Podcast-Interview:b</a>
+<ul>
+<li>From 35:52</li>
+
+</ul></li>
+<li>Dr. Bret Weinstein, Was a professor of biology at Evergreen State College</li>
+<li>Dr. Robert Malone, inventor of mRNA vaccine technology</li>
+<li>Steve Kirsch, tech entrepreneur</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org7d917de">
+<h3 id="org7d917de">mRNA bio distribution</h3>
+<ul>
+<li><a href="https://www.naturalnews.com/files/Pfizer-bio-distribution-confidential-document-translated-to-english.pdf">https://www.naturalnews.com/files/Pfizer-bio-distribution-confidential-document-translated-to-english.pdf</a>
+<img src="CovidVaxOverview.org_imgs/20211011_224645_hbHrik.png" alt="20211011_224645_hbHrik.png" /></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgcfd5f22">
+<h2 id="orgcfd5f22">How Covid Vaccine impact shools?</h2>
+<ul>
+<li>What college require te Covid-19 Vaccine?
+<a href="https://www.bestcolleges.com/blog/list-of-colleges-that-require-covid-19-vaccine/">https://www.bestcolleges.com/blog/list-of-colleges-that-require-covid-19-vaccine/</a></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgf220557">
+<h2 id="orgf220557">Good overall references</h2>
+<ul>
+<li><a href="https://cdn.greenmedinfo.com/sites/default/files/cdn/Position_Paper_v24_FINAL.pdf">Dr. Herry</a></li>
+<li><a href="https://www.flemingmethod.com/live-stream-of-event-2021">Dr. Fleming</a></li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<p> Based upon work by yjwen. </p>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/search/search.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom/zoom.js"></script>
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: true,
+keyboard: true,
+mouseWheel: false,
+fragmentInURL: false,
+hashOneBasedIndex: false,
+pdfSeparateFragments: true,
+
+overview: true,
+width: 1400,
+height: 1000,
+margin: 0.10,
+minScale: 1.00,
+maxScale: 1.00,
+
+transition: 'cube',
+transitionSpeed: 'default',
+
+// Plugins with reveal.js 4.x
+plugins: [ RevealNotes, RevealSearch, RevealZoom ],
+
+// Optional libraries used to extend reveal.js
+dependencies: [
+]
+
+});
+</script>
+<script src="https://storage.googleapis.com/app.klipse.tech/plugin/js/klipse_plugin.js"></script>
+<script>
+/* Recompute layout upon changes by klipse.  Code fragment from
+   asciidoctor-revealjs-klipse by Timothy Pratley under GPLv3:
+   https://github.com/timothypratley/asciidoctor-revealjs-klipse/blob/master/docs/docinfo-footer.html */
+Reveal.addEventListener( 'slidechanged', function( event ) {
+    window.dispatchEvent( new Event('resize') );
+} );
+</script>
+</body>
+</html>
