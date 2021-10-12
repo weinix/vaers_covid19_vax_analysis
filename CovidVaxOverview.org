@@ -26,7 +26,7 @@
 ** How dangerous is it?
 - Early data from China: 3.4% case fatality rate
 - Mathematical models have suggested that 40–81% of the world population could be infected, and have lowered the infection fatality rate to 1.0% or 0.9%
-- The infection fatality rate of COVID-91 can vary substantially across different locations, depends on:
+- The infection fatality rate of COVID-19 can vary substantially across different locations, depends on:
   - Population age structure
   - Medical treatments available
   - Health situation
