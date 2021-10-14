@@ -5,7 +5,7 @@
 #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
 #+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:t
 #+OPTIONS: reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
-#+OPTIONS: reveal_width:1920 reveal_height:1024
+#+OPTIONS: reveal_width:2120 reveal_height:1224
 #+OPTIONS: toc:nil
 #+OPTIONS: reveal_klipsify_src:t
 #+REVEAL_MIN_SCALE: 1.0
@@ -105,6 +105,7 @@ https://colab.research.google.com/drive/1JTYIltXHUiz7nvdv_1ZwpW6trveh63Ke?usp=sh
 * Covid Vaccine Facts
 ** Traditional vaccines
 [[file:CovidVaxOverview.org_imgs/20211011_214736_oyuhab.png]]
+
 Reference: https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/vaccine-safety-6-common-questions-answered
 ** Covid mRNA vaccines
 [[file:CovidVaxOverview.org_imgs/20211011_214558_fOGgty.png]]
@@ -138,10 +139,13 @@ https://colab.research.google.com/drive/1RdP7fdF6iUPWRmxfJ4eiXR9v-i3EVUUB?usp=sh
 
 ** UK Data
 - [[https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1001354/Variants_of_Concern_VOC_Technical_Briefing_17.pdf][Jun. 2021]]
+
  [[file:CovidVaxOverview.org_imgs/20211011_214943_yrMfK3.png]]
 - [[https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1009243/Technical_Briefing_20.pdf][Aug. 2021]]
+
  [[file:CovidVaxOverview.org_imgs/20211011_215040_lNAZoB.png]]
 - [[https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1014926/Technical_Briefing_22_21_09_02.pdf][Sep. 2021]]
+
  [[file:CovidVaxOverview.org_imgs/20211011_215120_ePKtr5.png]]
 
 ** Israel
@@ -152,18 +156,9 @@ https://colab.research.google.com/drive/1RdP7fdF6iUPWRmxfJ4eiXR9v-i3EVUUB?usp=sh
 ** Singapore
 [[file:CovidVaxOverview.org_imgs/20211011_204831_xZvZnT.png]]
 
-** US latest Vax development
-- [[https://www.poynter.org/reporting-editing/2021/cdc-advisers-approve-covid-booster-shots-for-adults-but-reject-part-of-fda-approval/][CDC director overrules advisers and approves Pfizer booster shots for millions of people in high-risk jobs]]
-  - "The highly unusual move comes after the advisory board on vaccines voted nine to six against giving booster shots to teachers, health care workers and others who come in close contact with people in their jobs."
-- [[file:docs/AFFIDAVIT-OF-LTC_Long.pdf][Oct. 4th 2021, Affidavit of Army Lieutenant Colonel Theresa Long M.D]]
- [[file:CovidVaxOverview.org_imgs/20211011_222041_WwXdFZ.png]]
- [[file:CovidVaxOverview.org_imgs/20211011_222009_8Kw9aA.png]]
-
-- Texas governor signed bill forbiden Vax mandate
 ** VigiAccess data (WHO)
 - http://vigiaccess.org/
-[[file:CovidVaxOverview.org_imgs/20211011_222623_7RhbZn.png]]
-** Spike protein itself is toxic
+[** Spike protein itself is toxic
 - https://www.brighteon.com/3d683a15-fc3d-432d-a057-3313969eb075
 - https://omny.fm/shows/on-point-with-alex-pierson/new-peer-reviewed-study-on-covid-19-vaccines-sugge
 
@@ -196,7 +191,7 @@ https://colab.research.google.com/drive/1RdP7fdF6iUPWRmxfJ4eiXR9v-i3EVUUB?usp=sh
 - Infertity is the major one
 - [[https://informedchoicewa.org/news/chance-that-covid-19-vaccines-are-gene-therapy-100/][Cancer by design]]
 - Autoimmune disease by design
-
+[file:CovidVaxOverview.org_imgs/20211011_222623_7RhbZn.png]]
 * FDA Vaccines and Related Biological Products Advisory Committee-8/17/2021
 [[file:index.org_imgs/20211012_163539_DTUhVn.png]]
 [[file:index.org_imgs/20211012_163644_Kio142.png]]
@@ -240,6 +235,15 @@ https://colab.research.google.com/drive/1RdP7fdF6iUPWRmxfJ4eiXR9v-i3EVUUB?usp=sh
 * How Covid Vaccine impact shools?
 - What college require te Covid-19 Vaccine?
   https://www.bestcolleges.com/blog/list-of-colleges-that-require-covid-19-vaccine/
+* US latest Import Vax News
+- [[https://www.poynter.org/reporting-editing/2021/cdc-advisers-approve-covid-booster-shots-for-adults-but-reject-part-of-fda-approval/][CDC director overrules advisers and approves Pfizer booster shots for millions of people in high-risk jobs]]
+  - "The highly unusual move comes after the advisory board on vaccines voted nine to six against giving booster shots to teachers, health care workers and others who come in close contact with people in their jobs."
+- [[file:docs/AFFIDAVIT-OF-LTC_Long.pdf][Oct. 4th 2021, Affidavit of Army Lieutenant Colonel Theresa Long M.D]]
+ [[file:CovidVaxOverview.org_imgs/20211011_222041_WwXdFZ.png]]
+ [[file:CovidVaxOverview.org_imgs/20211011_222009_8Kw9aA.png]]
+
+- Texas governor signed bill forbiden Vax mandate
+
 * Good overall references
 - [[https://cdn.greenmedinfo.com/sites/default/files/cdn/Position_Paper_v24_FINAL.pdf][Dr. Herry]]
 - [[https://www.flemingmethod.com/live-stream-of-event-2021][Dr. Fleming]]
