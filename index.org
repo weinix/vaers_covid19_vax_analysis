@@ -1,10 +1,11 @@
+#+REVEAL_TITLE_SLIDE: <h1>%t</h1><h2>%s</h2><h3>%A %a</h3><p><a href="%u">View online</a></p>
 #+TITLE: Covid Vaccines Overview
 #+author: Wei Wang
 #+OPTIONS: toc:nil
 #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
 #+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:t
 #+OPTIONS: reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
-#+OPTIONS: reveal_width:1400 reveal_height:1000
+#+OPTIONS: reveal_width:1920 reveal_height:1024
 #+OPTIONS: toc:nil
 #+OPTIONS: reveal_klipsify_src:t
 #+REVEAL_MIN_SCALE: 1.0
@@ -14,7 +15,9 @@
 #+REVEAL_TRANS: cube
 #+REVEAL_THEME: black
 #+REVEAL_HLEVEL: 2
-#+REVEAL_POSTAMBLE: <p> Based upon work by yjwen. </p>
+#+REVEAL_TALK_URL: https://weinix.github.io/vaers_covid19_vax_analysis/
+#+REVEAL_TALK_QR_CODE: <code>url.jpg</code>
+#+REVEAL_POSTAMBLE: <p> ww </p>
 
 
 * Covid-19 Facts
