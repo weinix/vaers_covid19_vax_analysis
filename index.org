@@ -250,6 +250,9 @@ https://colab.research.google.com/drive/1RdP7fdF6iUPWRmxfJ4eiXR9v-i3EVUUB?usp=sh
 ** Where is the biden executive order
 ** 10/13 Mercola story
 [[file:index.org_imgs/20211015_131746_hTHups.png]]
+** 10/8 updates
+- [[https://medalerts.org/vaersdb/findfield.php?TABLE=ON&GROUP1=AGE&EVENTS=ON&VAX=COVID19&VAXTYPES=COVID-19&DIED=Yes&STATE=NOTFR&WhichAge=range&LOWAGE=12&HIGHAGE=18][18 death between 12-17]]
+
 * What's going on, world?
 ** Global government/Policy
 ** Global coltrol
