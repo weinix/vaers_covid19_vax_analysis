@@ -141,10 +141,12 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines
 
 ** How efficacy value is calculated
 - Relative Risk reduction(What's been told)
-[[file:CovidVaxOverview.org_imgs/20211011_212621_3uWJ9j.png]]
-Keep in mind when you read this data, there is no reliable way to tell who really got COVID
+
+  [[file:CovidVaxOverview.org_imgs/20211011_212621_3uWJ9j.png]]
+  - Keep in mind there is no reliable way to tell who really got COVID
 - Absolute risk reduction
- [[file:CovidVaxOverview.org_imgs/20211011_212914_Qr7WBX.png]]
+
+  [[file:CovidVaxOverview.org_imgs/20211011_212914_Qr7WBX.png]]
 
 ** Put data together
 [[file:CovidVaxOverview.org_imgs/20211011_213117_gRIuqt.png]]
@@ -266,15 +268,26 @@ https://colab.research.google.com/drive/1RdP7fdF6iUPWRmxfJ4eiXR9v-i3EVUUB?usp=sh
 ** 10/13 Mercola story
 [[file:index.org_imgs/20211015_131746_hTHups.png]]
 * What's going on, world?
-** Global government/Policy
 ** Global coltrol
 - Food
 - Material
 - Energy
 - Medicine
 - Climate
-**
-
+** Pay attention to World Economic Forum
+[[file:index.org_imgs/20211016_191652_aPfVCw.png]]
+- [[https://www.youtube.com/watch?v=lBBxWtKKQiA][Design future (You own nothing but you are happy)]]
+** [[https://www3.weforum.org/docs/WEF_The_Global_Risks_Report_2021.pdf][The Global Risks Report 2021 16th Edition]]
+- Supply chains harm
+- Societal divitions
+- Reset and build back
+- Cyberattacks
+- Weapons of mass destructions
+- Climate changes
+- Fourth industrial Revolution: Digitalizationof human
+** Yes, The 4th industrial Revolution
+- Transhuman
+- Digitalization of human and assets
 * How Covid Vaccine impact shools?
 - What college require te Covid-19 Vaccine?
   https://www.bestcolleges.com/blog/list-of-colleges-that-require-covid-19-vaccine/
