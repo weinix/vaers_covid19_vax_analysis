@@ -5,7 +5,7 @@
 #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
 #+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:t
 #+OPTIONS: reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
-#+OPTIONS: reveal_width:2120 reveal_height:1224
+#+OPTIONS: reveal_width:1400 reveal_height:1000
 #+OPTIONS: toc:nil
 #+OPTIONS: reveal_klipsify_src:t
 #+REVEAL_MIN_SCALE: 1.0
@@ -139,6 +139,14 @@ Reference: https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-he
 
 Reference: https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/mRNA.html?s_cid=11344:how%20mrna%20vaccines%20work:sem.ga:p:RG:GM:gen:PTN:FY21
 
+** How vaccine had been developped
+[[file:CovidVaxOverview.org_imgs/20211011_214211_jELaLo.png]]
+** Understand phases of clinical trails
+- Phase I - Determine Safety. If you can’t find a safe dose, then it doesn’t matter if it works. Small in numbers & healthy people.
+- Phase II (aka Exploratory Trials) - If a Safe Dose is Found - Does the Drug Work?
+- Phase III - How does the drug compare with that already used for the problem?
+- Phase IV - Post Marketing Surveillance Studies (aka Pharmacovigilance).
+
 ** How efficacy value is calculated
 - Relative Risk reduction(What's been told)
 
@@ -151,14 +159,6 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines
 ** Put data together
 [[file:CovidVaxOverview.org_imgs/20211011_213117_gRIuqt.png]]
 
-** Understand phases of clinical trails
-- Phase I - Determine Safety. If you can’t find a safe dose, then it doesn’t matter if it works. Small in numbers & healthy people.
-- Phase II (aka Exploratory Trials) - If a Safe Dose is Found - Does the Drug Work?
-- Phase III - How does the drug compare with that already used for the problem?
-- Phase IV - Post Marketing Surveillance Studies (aka Pharmacovigilance).
-
-** How vaccine had been developped
-[[file:CovidVaxOverview.org_imgs/20211011_214211_jELaLo.png]]
 * Post Vaccine data
 ** UK Data
 - [[https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1001354/Variants_of_Concern_VOC_Technical_Briefing_17.pdf][Jun. 2021]]
