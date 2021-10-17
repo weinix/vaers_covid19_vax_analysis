@@ -125,7 +125,7 @@ https://colab.research.google.com/drive/1JTYIltXHUiz7nvdv_1ZwpW6trveh63Ke?usp=sh
     - treatment of critically ill seniors in Long Term Care
     - Facilities with anticoagulants who had elevated markers of inflammation were 84% less likely to die.
 
-* Covid Vaccine Facts
+* Vaccine Facts
 - Traditional vaccines vs mRNA vaccines
 - Understand vaccine efficacy
 - Understand clinical trials
